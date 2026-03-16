@@ -4,101 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agência Criativa Web</title>
-    <link rel="stylesheet" href="estilos.css">
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Alegreya:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header class="cabecalho">
-        <div class="cabecalho__logo">Agência Criativa</div>
+    <header>
+        <div class="logo">
+            <h1>Agência Criativa</h1>
+        </div>
         <nav>
-            <ul class="menu__lista">
-                <li class="menu__item"><a href="#home"        class="menu__link">Home</a></li>
-                <li class="menu__item"><a href="#sobre"       class="menu__link">Sobre Nós</a></li>
-                <li class="menu__item"><a href="#servicos"    class="menu__link">Serviços</a></li>
-                <li class="menu__item"><a href="#depoimentos" class="menu__link">Depoimentos</a></li>
-                <li class="menu__item"><a href="#contato"     class="menu__link">Contato</a></li>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="home" class="secao secao--medio">
-        <h2 class="titulo-secao">Bem-vindo à Agência Criativa!</h2>
-        <p class="texto">Somos especialistas em transformar suas ideias em realidade digital.</p>
-        <a href="#contato" class="btn btn--primario">Fale Conosco</a>
+    <section id="home">
+        <h2>Bem-vindo à Agência Criativa!</h2>
+        <p>Somos especialistas em transformar suas ideias em realidade digital.</p>
+        <a href="#contato" class="botao">Fale Conosco</a>
     </section>
 
-    <section id="sobre" class="secao secao--escuro">
-        <h2 class="titulo-secao">Sobre Nós</h2>
-        <p class="texto">A Agência Criativa foi fundada em 2016 com o objetivo de ajudar empresas a crescerem no mundo digital.</p>
-        <p class="texto">Nossos valores são: <strong>qualidade</strong>, <strong>criatividade</strong> e <strong>comprometimento</strong>.</p>
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>A Agência Criativa foi fundada em 2016 com o objetivo de ajudar empresas a crescerem no mundo digital.</p>
+        <p>Nossos valores são: <strong>qualidade</strong>, <strong>criatividade</strong> e <strong>comprometimento</strong>.</p>
     </section>
 
-    <section id="servicos" class="secao secao--medio">
-        <h2 class="titulo-secao">Serviços</h2>
-        <div class="servicos__grid">
+    <section id="servicos">
+        <h2>Serviços</h2>
+        <div class="grid-servicos">
             <div class="card">
-                <h3 class="card__titulo">Design Gráfico</h3>
-                <p class="card__texto">Criamos identidades visuais modernas e profissionais para sua marca.</p>
+                <h3>Design Gráfico</h3>
+                <p>Criamos identidades visuais modernas e profissionais para sua marca.</p>
             </div>
             <div class="card">
-                <h3 class="card__titulo">Desenvolvimento Web</h3>
-                <p class="card__texto">Sites responsivos e rápidos para o seu negócio.</p>
+                <h3>Desenvolvimento Web</h3>
+                <p>Sites responsivos e rápidos para o seu negócio.</p>
             </div>
             <div class="card">
-                <h3 class="card__titulo">Branding</h3>
-                <p class="card__texto">Construímos marcas do zero: logo, cores e tipografia.</p>
+                <h3>Branding</h3>
+                <p>Construímos marcas do zero: logo, cores e tipografia.</p>
             </div>
             <div class="card">
-                <h3 class="card__titulo">Marketing Digital</h3>
-                <p class="card__texto">Estratégias para aumentar sua presença nas redes sociais.</p>
+                <h3>Marketing Digital</h3>
+                <p>Estratégias para aumentar sua presença nas redes sociais.</p>
             </div>
         </div>
     </section>
 
-    <section id="depoimentos" class="secao secao--escuro">
-        <h2 class="titulo-secao">Depoimentos</h2>
+    <section id="depoimentos">
+        <h2>Depoimentos</h2>
 
         <div class="depoimento">
-            <p class="depoimento__texto">"A agência transformou completamente a nossa marca. Recomendo muito!"</p>
-            <span class="depoimento__autor">— João Silva, CEO da Empresa X</span>
-        </div>
-
-        <div class="depoimento">
-            <p class="depoimento__texto">"Ótimo atendimento e entrega no prazo. Ficamos muito satisfeitos!"</p>
-            <span class="depoimento__autor">— Maria Oliveira, Diretora da Empresa Y</span>
+            <p>"A agência transformou completamente a nossa marca. Recomendo muito!"</p>
+            <span>— João Silva, CEO da Empresa X</span>
         </div>
 
         <div class="depoimento">
-            <p class="depoimento__texto">"Profissionais incríveis! O site ficou exatamente como queríamos."</p>
-            <span class="depoimento__autor">— Carlos Souza, Fundador da Empresa Z</span>
+            <p>"Ótimo atendimento e entrega no prazo. Ficamos muito satisfeitos!"</p>
+            <span>— Maria Oliveira, Diretora da Empresa Y</span>
+        </div>
+
+        <div class="depoimento">
+            <p>"Profissionais incríveis! O site ficou exatamente como queríamos."</p>
+            <span>— Carlos Souza, Fundador da Empresa Z</span>
         </div>
     </section>
 
-    <section id="contato" class="secao secao--medio">
-        <h2 class="titulo-secao">Contato</h2>
+    <section id="contato">
+        <h2>Contato</h2>
 
-        <div class="contato__info">
-            <p>📍 Rua Logo Ali da Silva, 42 — São Paulo, SP</p>
-            <p>📞 (11) 4002-0922</p>
-            <p>✉️ contato@agenciacriativa.com.br</p>
-        </div>
+        <p>📍 Endereço: Rua Logo Ali da Silva, 42 — São Paulo, SP</p>
+        <p>📞 Telefone: (11) 4002-0922</p>
+        <p>✉️ E-mail: contato@agenciacriativa.com.br</p>
 
-        <form class="formulario">
-            <label class="formulario__label" for="nome">Nome:</label>
-            <input class="formulario__input" type="text" id="nome" name="nome" placeholder="Seu nome">
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome">
 
-            <label class="formulario__label" for="email">E-mail:</label>
-            <input class="formulario__input" type="email" id="email" name="email" placeholder="Seu e-mail">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Seu e-mail">
 
-            <label class="formulario__label" for="mensagem">Mensagem:</label>
-            <textarea class="formulario__textarea" id="mensagem" name="mensagem" rows="5" placeholder="Sua mensagem"></textarea>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Sua mensagem"></textarea>
 
-            <button type="submit" class="btn btn--primario">Enviar</button>
+            <button type="submit">Enviar</button>
         </form>
     </section>
 
-    <footer class="rodape">
+    <footer>
         <p>© 2025 Agência Criativa. Todos os direitos reservados.</p>
     </footer>
 
